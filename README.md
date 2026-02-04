@@ -17,22 +17,22 @@ Designed and developed a full-stack web application that helps students plan lea
     - /ai/recommendation
 4. MVP features
    4.1. Authentication
-    1. Purpose: To identify users and store their personal data 
-    2. Features: 
-        1. Register/ Login
-        2. JWT or session-based auth
+    * Purpose: To identify users and store their personal data 
+    * Features: 
+         Register/ Login
+         JWT or session-based auth
    **Notes:** No social login/ password reset or email verification for MVP yet
    4.2. Goals
-    1. Purpose: Let users define learning/ career objectives and recieve AI recommendations
-    2. Features:
+    * Purpose: Let users define learning/ career objectives and recieve AI recommendations
+    * Features:
         1. Create a goal (e.g: “Master React in 6 weeks period, land a SWE job at company XYZ , etc
         2. AI will then generate: 
             - Suggested study schedule/roadmap
             - 3-5 curated resources ( docs, Youtube. Tutorials )
      **Notes:**     No skill-level personalization yet
    4.3. Study Logs
-    1. Purpose: To track user daily progress
-    2. Features: 
+    * Purpose: To track user daily progress
+    * Features: 
         1. Logs that display:
             - Date
             - Duration
@@ -40,14 +40,14 @@ Designed and developed a full-stack web application that helps students plan lea
             - Notes ( Notion-style)
      **Notes:**    No tags, attachments or rich text support yet
    4.4. Dashboard
-    1. Purpose: To view uses’s progress in figures for better visualisation 
-    2. Features:
+    * Purpose: To view uses’s progress in figures for better visualisation 
+    * Features:
         1. Total hours studied/ not studied
         2. Progress per goal ( % or bar ) ( will upgrade to user’s preferences )
     **Notes:**  Weekly summaries and advanced charts will be postponed once the core features are finalized      
 4.5. AI feedback
-    1. **Purpose:** Help users identify strengths, gaps, and next steps.
-    2. **Features:**
+    * Purpose: Help users identify strengths, gaps, and next steps.
+    * Features:
     - On-demand “Get Feedback” button
     - AI scans user goals + study logs
     - Returns:
